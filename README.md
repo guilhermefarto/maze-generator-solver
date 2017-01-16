@@ -14,6 +14,8 @@ Usage:
 python maze-generator-depth-first-search.py [-h] [-c COUNT] [-s SIZE] -mx WIDTH -my HEIGHT [-g GOLD] [-ng NUMBEROFGOLD] [-d DIAMOND] [-nd NUMBEROFDIAMOND]
 ```
 
+The arguments shoud be:
+
 ```-c COUNT, --count COUNT```
 * amount of mazes to be generated
     
@@ -70,6 +72,8 @@ Usage:
 ```python
 python maze-solver-a-star.py [-h] [-p PATH] [-c COUNT] [-s SIZE]
 ```
+
+The arguments shoud be:
 
 ```-p PATH, --path PATH```
 * path of the directory that contains the mazes to be solved
