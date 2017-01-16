@@ -6,7 +6,7 @@ Python projects for
 ---
 
 <a name="maze-generator"></a>
-> ## Maze Generator (maze-generator-depth-first-search.py)
+## Maze Generator (maze-generator-depth-first-search.py)
 > - Depth-First Search and Recursive Backtracker
 
 Usage:
@@ -72,7 +72,7 @@ Generating maze to "C:/mazes" directory
 ```python maze-generator-depth-first-search.py -mx 32 -my 32 -p C:/mazes```
 
 <a name="maze-solver"></a>
-> ## Maze Solver (maze-solver-a-star.py)
+## Maze Solver (maze-solver-a-star.py)
 > - A* Search
 
 Usage:
