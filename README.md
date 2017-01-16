@@ -147,7 +147,7 @@ python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5
 python maze-generator-depth-first-search.py -mx 32 -my 32 -p c:/mazes
 ```
 
-*Hint: All other arguments previously described can be used with ```-p PATH``` argument
+*Hint: All other arguments previously described can be used with ```-p PATH``` argument*
 
 <a name="maze-solver-examples"></a>
 ### > Examples for solving mazes
@@ -186,4 +186,4 @@ python maze-solver-a-star.py -s 5 -c 3
 python maze-solver-a-star.py -p c:/mazes
 ```
 
-*Hint: All other arguments previously described can be used with ```-p PATH``` argument
+*Hint: All other arguments previously described can be used with ```-p PATH``` argument*
