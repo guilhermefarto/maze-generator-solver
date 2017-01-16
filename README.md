@@ -158,7 +158,7 @@ python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -c 3
 
 Output maze:
 
-| Maze.png                 | Maze_Solved.png (\*)            |
+| Maze.png                 | Maze_{0}_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](examples/3/Maze_1.png) | ![](examples/3/Maze_1_Solved.png) |
 | ![](examples/3/Maze_2.png) | ![](examples/3/Maze_2_Solved.png) |
