@@ -97,8 +97,6 @@ Output maze:
 | ![](examples/1/Maze.png) | ![](examples/1/Maze_Solved.png) |
 \* **The maze it was solved using this [example](#solving-mazes-1).**
 
-(Teste)[#solving-mazes-1]
-
 **Another examples:**
 
 * Example #2: Generating a maze in the same path directory of the .py project with mx = 32 and my = 64
