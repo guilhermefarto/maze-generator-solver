@@ -75,17 +75,30 @@ python maze-generator-depth-first-search.py -mx 32 -my 32
 
 **Another examples:**
 
-```python maze-generator-depth-first-search.py -mx 32 -my 64``` (32 columns and 64 rows)
+```python
+python maze-generator-depth-first-search.py -mx 32 -my 64
+```
+(32 columns and 64 rows)
 
-```python maze-generator-depth-first-search.py -mx 64 -my 32``` (64 columns and 32 rows)
+```python
+python maze-generator-depth-first-search.py -mx 64 -my 32
+``` (64 columns and 32 rows)
 
-```python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5```
+```python
+python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5
+```
 
-```python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -c 3```
+```python
+python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -c 3
+```
 
-```python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -g=True -d=True```
+```python
+python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -g=True -d=True
+```
 
-```python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -ng=15 -nd=5```
+```python
+python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -ng=15 -nd=5
+```
 
 **Another examples:**
 
@@ -108,16 +121,30 @@ python maze-generator-depth-first-search.py -mx 32 -my 32 -p C:/mazes
 <a name="maze-solver-examples"></a>
 ### > Examples for solving mazes
 
-```python maze-solver-a-star.py```
+```python
+python maze-solver-a-star.py
+```
 
-```python maze-solver-a-star.py -s 5```
+```python
+python maze-solver-a-star.py -s 5
+```
 
-```python maze-solver-a-star.py -s 5 -c 3```
+```python
+python maze-solver-a-star.py -s 5 -c 3
+```
 
-```python maze-solver-a-star.py -s 5``` (same of example #2)
+```python
+python maze-solver-a-star.py -s 5
+```
+(same of example #2)
 
-```python maze-solver-a-star.py -s 5``` (same of example #2)
+```python
+python maze-solver-a-star.py -s 5
+```
+(same of example #2)
 
 **Solving maze(s) from the "C:/mazes" directory**
 
-```python maze-solver-a-star.py -p C:/mazes```
+```python
+python maze-solver-a-star.py -p C:/mazes
+```
