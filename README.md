@@ -165,7 +165,7 @@ Output maze:
 | ![](examples/3/Maze_3.png) | ![](examples/3/Maze_3_Solved.png) |
 \* **The mazes were solved using this [example](#solving-mazes-3).**
 
-* Example #6: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 enabling the generation of gold and diamond blocks
+* Example #6: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 enabling the generation blocks of of gold and diamond
 
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -g=True -d=True
