@@ -79,6 +79,8 @@ python maze-generator-depth-first-search.py -mx 32 -my 32
 
 *Hint: The generated maze will be a image with 320 px (width) and 320 px (height) because ```-s SIZE``` argument default value is 10*
 
+*Hint: The exported maze with have the name ```Maze.png``` or ```Maze_{0}.png``` (for indexed / batch processing - ```{0}``` will iterate from one (1) to defined ```-c COUNT``` argument value)
+
 **Another examples:**
 
 * Example #2: Generating a maze in the same path directory of the .py project with mx = 32 and my = 64
