@@ -67,6 +67,9 @@ Another examples:
 
 > ```python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5``` (64 columns and 32 rows)
 
+* Generating maze to "C:/mazes" directory
+python maze-generator-depth-first-search.py -mx 32 -my 32 -p C:/mazes
+
 <a name="maze-solver"></a>
 > ## Maze Solver (maze-solver-a-star.py)
 > - A* Search
@@ -99,8 +102,5 @@ The arguments shoud be:
 
 ```python maze-solver-a-star.py -s 5``` (same of example #2)
 
-======
-
-python maze-generator-depth-first-search.py -mx 32 -my 32 -p C:/mazes
-
-python maze-solver-a-star.py -p C:/mazes
+* Solving maze from "C:/mazes" directory
+```python maze-solver-a-star.py -p C:/mazes```
