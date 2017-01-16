@@ -11,10 +11,13 @@ Python projects for
 
 Usage:
 ```python
-python maze-generator-depth-first-search.py [-h] [-c COUNT] [-s SIZE] -mx WIDTH -my HEIGHT [-g GOLD] [-ng NUMBEROFGOLD] [-d DIAMOND] [-nd NUMBEROFDIAMOND]
+python maze-generator-depth-first-search.py [-h] [-p PATH] [-c COUNT] [-s SIZE] -mx WIDTH -my HEIGHT [-g GOLD] [-ng NUMBEROFGOLD] [-d DIAMOND] [-nd NUMBEROFDIAMOND]
 ```
 
 The arguments shoud be:
+
+```-p PATH, --path PATH```
+* path of the directory that contains the mazes to be generated
 
 ```-c COUNT, --count COUNT```
 * amount of mazes to be generated
