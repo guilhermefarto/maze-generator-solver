@@ -71,7 +71,7 @@ The arguments shoud be:
 
 **Basic usage:**
 
-#### Example #1: Generating a maze with mx = 32 and my = 32 (it'll result in a 320 px width X 320 px height maze)
+* Example #1: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 (it'll result in a 320 px width X 320 px height maze because size argument default value is 10)
 
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 32
@@ -125,6 +125,8 @@ python maze-generator-depth-first-search.py -mx 32 -my 32 -p c:/mazes
 ### > Examples for solving mazes
 
 **Basic usage:**
+
+* Example #1: Solving a maze located in the same path directory of the .py project
 
 ```python
 python maze-solver-a-star.py
