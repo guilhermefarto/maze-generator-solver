@@ -43,6 +43,29 @@ The arguments shoud be:
 ```-nd NUMBEROFDIAMOND, --numberOfDiamond NUMBEROFDIAMOND``` *(optional but default value is 1)*
 * number of blocks of diamond through maze
 
+<a name="maze-solver"></a>
+## Maze Solver (maze-solver-a-star.py)
+> Based on A* Search
+
+Usage:
+```python
+python maze-solver-a-star.py [-h] [-p PATH] [-c COUNT] [-s SIZE]
+```
+
+The arguments shoud be:
+
+```-p PATH, --path PATH``` *(optional)*
+* path of the directory that contains the mazes to be solved
+
+```-c COUNT, --count COUNT``` *(optional)*
+* amount of mazes to be generated
+
+```-s SIZE, --size SIZE``` *(optional but default value is 10)*
+* size of the maze blocks
+
+<a name="all-examples"></a>
+## Examples
+
 <a name="maze-generator-examples"></a>
 > ### Examples for generating mazes
 
@@ -71,26 +94,6 @@ The arguments shoud be:
 **Generating maze(s) in the "C:/mazes" directory**
 
 ```python maze-generator-depth-first-search.py -mx 32 -my 32 -p C:/mazes```
-
-<a name="maze-solver"></a>
-## Maze Solver (maze-solver-a-star.py)
-> Based on A* Search
-
-Usage:
-```python
-python maze-solver-a-star.py [-h] [-p PATH] [-c COUNT] [-s SIZE]
-```
-
-The arguments shoud be:
-
-```-p PATH, --path PATH``` *(optional)*
-* path of the directory that contains the mazes to be solved
-
-```-c COUNT, --count COUNT``` *(optional)*
-* amount of mazes to be generated
-
-```-s SIZE, --size SIZE``` *(optional but default value is 10)*
-* size of the maze blocks
 
 <a name="maze-solver-examples"></a>
 > ### Examples for solving mazes
