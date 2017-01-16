@@ -16,17 +16,6 @@ python maze-generator-depth-first-search.py [-h] [-c COUNT] [-s SIZE] -mx WIDTH 
 
 The arguments shoud be:
 
-| Arguments        | Description           |
-| ------------------------------- |-------------|
-| ```-c COUNT, --count COUNT``` | d |
-| ```-s SIZE, --size SIZE```| d |
-| ```-mx WIDTH, --width WIDTH``` | d |
-| ```-my HEIGHT, --height HEIGHT```| df |
-| ```-g GOLD, --gold GOLD``` | d |
-| ```-ng NUMBEROFGOLD, --numberOfGold NUMBEROFGOLD``` | d |
-| ```-d DIAMOND, --diamond DIAMOND``` | d |
-| ```-nd NUMBEROFDIAMOND, --numberOfDiamond NUMBEROFDIAMOND``` | d |
-
 ```-c COUNT, --count COUNT```
 * amount of mazes to be generated
     
