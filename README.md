@@ -162,7 +162,7 @@ python maze-solver-a-star.py
 
 **Another examples:**
 
-* Example #2: Solving a maze located in the same path directory of the .py project
+* Example #2: Solving a maze located in the same path directory of the .py project with 50%-image (```-s SIZE``` argument equal to 5)
 
 ```python
 python maze-solver-a-star.py -s 5
@@ -170,13 +170,13 @@ python maze-solver-a-star.py -s 5
 
 *Hint: The maze will be manipulated considering that the ```-s SIZE``` argument value is 5. Thefore, the solver take on that an image with 160 px (width) and 320 px (height) is equivalent to a maze with to 32 columns (160 px / 5) and 64 rows (320 px / 5)*
 
-* Example #3: Solving a maze located in the same path directory of the .py project
+* Example #3: Solving three (3) mazes located in the same path directory of the .py project (batch processing)
 
 ```python
 python maze-solver-a-star.py -s 5 -c 3
 ```
 
-*Hint: The same as previous example in #3 but solving the mazes in batch*
+*Hint: The same as previous example in #2 but solving the mazes in batch*
 
 **Solving maze(s) from the "c:/mazes" directory**
 
