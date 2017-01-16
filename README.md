@@ -215,9 +215,7 @@ python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5
 | ![](other-examples/4/Maze.png) | ![](other-examples/4/Maze_Solved.png) |
 \* **The maze was solved using this [example](#solving-mazes-1).**
 
-**Generating maze(s) in the "c:/mazes" directory**
-
-* **Example #10: Generating a maze in a custom path directory with mx = 32 and my = 32**
+* **Example #10: Generating maze(s) in a custom path directory
 
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 32 -p c:/mazes
@@ -263,9 +261,7 @@ python maze-solver-a-star.py -s 5 -c 3
 
 *Hint: As mentioned, the exported mazes will have names based on ```Maze_{0}_Solved.png``` pattern (```{0}``` will iterate from one (1) to defined ```-c COUNT``` argument value)*
 
-**Solving maze(s) from the "c:/mazes" directory**
-
-* **Example #4: Solving a maze in a custom path directory**
+* **Example #4: Solving maze(s) in a custom path directory**
 
 ```python
 python maze-solver-a-star.py -p c:/mazes
