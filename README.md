@@ -180,7 +180,7 @@ Output maze:
 
 *Hint: The default amount of blocks of gold is five (5) and the default amout of blocks of diamond is one (1)*
 
-* Example #7: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 inserting fifteen (15) gold blocks and five (5) diamond blocks
+* Example #7: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 inserting fifteen (15) blocks of gold and five (5) blocks of diamond
 
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -ng=15 -nd=5
@@ -193,7 +193,7 @@ Output maze:
 | ![](examples/5/Maze.png) | ![](examples/5/Maze_Solved.png) |
 \* **The maze was solved using this [example](#solving-mazes-2).**
 
-* Example #8: Generating a maze in the same path directory of the .py project with mx = 32 and my = 64 inserting fifteen (15) gold blocks and five (5) diamond blocks
+* Example #8: Generating a maze in the same path directory of the .py project with mx = 32 and my = 64 inserting fifteen (15) blocks of gold and five (5) blocks of diamond
 
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 64 -ng=15 -nd=5
@@ -204,7 +204,7 @@ python maze-generator-depth-first-search.py -mx 32 -my 64 -ng=15 -nd=5
 | ![](other-examples/3/Maze.png) | ![](other-examples/3/Maze_Solved.png) |
 \* **The maze was solved using this [example](#solving-mazes-1).**
 
-* Example #8: Generating a maze in the same path directory of the .py project with mx = 64 and my = 32 inserting fifteen (15) gold blocks and five (5) diamond blocks
+* Example #8: Generating a maze in the same path directory of the .py project with mx = 64 and my = 32 inserting fifteen (15) blocks of gold and five (5) blocks of diamond
 
 ```python
 python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5
