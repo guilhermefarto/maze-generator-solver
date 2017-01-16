@@ -45,13 +45,13 @@ The arguments shoud be:
 * height of the maze
 
 ```-g GOLD, --gold GOLD``` *(optional)*
-* has gold blocks through maze
+* has blocks of gold through maze
 
 ```-ng NUMBEROFGOLD, --numberOfGold NUMBEROFGOLD``` *(optional but default value is 5)*
 * number of blocks of gold through maze
 
 ```-d DIAMOND, --diamond DIAMOND``` *(optional)*
-* has diamond blocks through maze
+* has blocks of diamond through maze
 
 ```-nd NUMBEROFDIAMOND, --numberOfDiamond NUMBEROFDIAMOND``` *(optional but default value is 1)*
 * number of blocks of diamond through maze
