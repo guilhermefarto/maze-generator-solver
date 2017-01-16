@@ -265,6 +265,8 @@ python maze-solver-a-star.py -s 5 -c 3
 
 **Solving maze(s) from the "c:/mazes" directory**
 
+* **Example #4: Solving a maze in a custom path directory**
+
 ```python
 python maze-solver-a-star.py -p c:/mazes
 ```
