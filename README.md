@@ -158,6 +158,8 @@ python maze-generator-depth-first-search.py -mx 32 -my 32 -p c:/mazes
 python maze-solver-a-star.py
 ```
 
+*Hint: The arguments for mx (width) and my (height) shouldn't be used for solving mazes - those values are obtained dynamically*
+
 **Another examples:**
 
 ```python
