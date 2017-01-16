@@ -87,9 +87,9 @@ The arguments shoud be:
 
 **Another examples:**
 
-    ```python maze-generator-depth-first-search.py -mx 32 -my 64 -ng=15 -nd=5``` (32 columns and 64 rows)
+```     python maze-generator-depth-first-search.py -mx 32 -my 64 -ng=15 -nd=5``` (32 columns and 64 rows)
 
-    ```python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5``` (64 columns and 32 rows)
+```     python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5``` (64 columns and 32 rows)
 
 **Generating maze(s) in the "C:/mazes" directory**
 
