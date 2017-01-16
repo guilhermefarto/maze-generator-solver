@@ -90,7 +90,7 @@ Another examples:
 
 ```python maze-solver-a-star.py -s 5``` (same of example #2)
 
-===
+======
 
 python maze-generator-depth-first-search.py -mx 32 -my 32 -p C:/mazes
 
