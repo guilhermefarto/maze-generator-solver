@@ -14,7 +14,7 @@ To install it from [Python Package Index](https://pypi.python.org/pypi/pip) (PIP
 
 ## Contact
 
-You can contact me by mail: guilherme.farto@gmail.com
+Feel free to contact me by mail: guilherme.farto@gmail.com
 
 ---
 
