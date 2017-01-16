@@ -1,7 +1,7 @@
 # maze-generator-solver
 Python projects for
-* (i) [Maze generator](#maze-generator) algorithm based on Depth-First Search and Recursive Backtracker
-* (ii) [Maze solver](#maze-solver) algorithm based on A* Search
+* (i) [Maze generator](#maze-generator) algorithm based on Depth-First Search and Recursive Backtracker ([examples](#maze-generator-examples))
+* (ii) [Maze solver](#maze-solver) algorithm based on A\* Search ([examples](#maze-solver-examples))
 
 ---
 
@@ -43,6 +43,7 @@ The arguments shoud be:
 ```-nd NUMBEROFDIAMOND, --numberOfDiamond NUMBEROFDIAMOND``` *(optional)*
 * number of blocks of diamond through maze
 
+<a name="maze-generator-examples"></a>
 > ### Examples for generating mazes
 
 ```python maze-generator-depth-first-search.py -mx 32 -my 32```
@@ -91,6 +92,7 @@ The arguments shoud be:
 ```-s SIZE, --size SIZE``` *(optional)*
 * size of the maze blocks
 
+<a name="maze-solver-examples"></a>
 > ### Examples for solving mazes
 
 ```python maze-solver-a-star.py```
