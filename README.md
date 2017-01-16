@@ -96,7 +96,7 @@ The arguments shoud be:
 ```python maze-generator-depth-first-search.py -mx 32 -my 32 -p C:/mazes```
 
 <a name="maze-solver-examples"></a>
-### Examples for solving mazes
+### > Examples for solving mazes
 
 ```python maze-solver-a-star.py```
 
