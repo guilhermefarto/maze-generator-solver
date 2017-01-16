@@ -66,11 +66,9 @@ Another examples:
 
 <a name="maze-solver"></a>
 > ## Maze Solver (maze-solver-a-star.py)
+> - A* Search
 
-- A* Search
-
-> Usage:
-
+Usage:
 ```python
 python maze-solver-a-star.py [-h] [-p PATH] [-c COUNT] [-s SIZE]
 ```
