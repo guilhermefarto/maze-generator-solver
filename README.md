@@ -82,7 +82,8 @@ python maze-generator-depth-first-search.py -mx 32 -my 64
 
 ```python
 python maze-generator-depth-first-search.py -mx 64 -my 32
-``` (64 columns and 32 rows)
+```
+(64 columns and 32 rows)
 
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5
