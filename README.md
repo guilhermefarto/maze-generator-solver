@@ -215,7 +215,7 @@ python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5
 | ![](other-examples/4/Maze.png) | ![](other-examples/4/Maze_Solved.png) |
 \* **The maze was solved using this [example](#solving-mazes-1).**
 
-* **Example #10: Generating maze(s) in a custom path directory
+* **Example #10: Generating maze(s) in a custom path directory**
 
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 32 -p c:/mazes
