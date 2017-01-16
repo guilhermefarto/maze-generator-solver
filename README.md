@@ -113,10 +113,10 @@ python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5
 ```
 (64 columns and 32 rows)
 
-**Generating maze(s) in the "C:/mazes" directory**
+**Generating maze(s) in the "c:/mazes" directory**
 
 ```python
-python maze-generator-depth-first-search.py -mx 32 -my 32 -p C:/mazes
+python maze-generator-depth-first-search.py -mx 32 -my 32 -p c:/mazes
 ```
 
 <a name="maze-solver-examples"></a>
@@ -148,8 +148,8 @@ python maze-solver-a-star.py -s 5
 ```
 (same of example #2)
 
-**Solving maze(s) from the "C:/mazes" directory**
+**Solving maze(s) from the "c:/mazes" directory**
 
 ```python
-python maze-solver-a-star.py -p C:/mazes
+python maze-solver-a-star.py -p c:/mazes
 ```
