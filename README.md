@@ -257,6 +257,8 @@ python maze-solver-a-star.py -s 5 -c 3
 
 *Hint: The same as previous example in #2 but solving the mazes in batch*
 
+*Hint: As mentioned, the exported mazes will have names based on ```Maze_{0}_Solved.png``` pattern (```{0}``` will iterate from one (1) to defined ```-c COUNT``` argument value)*
+
 **Solving maze(s) from the "c:/mazes" directory**
 
 ```python
