@@ -9,6 +9,7 @@ Python projects for
 - Depth-First Search and Recursive Backtracker
 
 > Usage:
+
 > ```python maze-generator-depth-first-search.py [-h] [-c COUNT] [-s SIZE] -mx WIDTH -my HEIGHT [-g GOLD] [-ng NUMBEROFGOLD] [-d DIAMOND] [-nd NUMBEROFDIAMOND]```
 
 ```-c COUNT, --count COUNT```
@@ -64,7 +65,9 @@ Another examples:
 
 - A* Search
 
-> Usage: ```python maze-solver-a-star.py [-h] [-p PATH] [-c COUNT] [-s SIZE]```
+> Usage:
+
+```python maze-solver-a-star.py [-h] [-p PATH] [-c COUNT] [-s SIZE]```
 
 ```-p PATH, --path PATH```
 * path of the directory that contains the mazes to be solved
