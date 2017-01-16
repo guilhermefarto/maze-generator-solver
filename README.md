@@ -10,29 +10,29 @@ Python projects for
 > Usage: 
 ```python maze-generator-depth-first-search.py [-h] [-c COUNT] [-s SIZE] -mx WIDTH -my HEIGHT [-g GOLD] [-ng NUMBEROFGOLD] [-d DIAMOND] [-nd NUMBEROFDIAMOND]```
 
-```-c COUNT, --count COUNT```
-amount of mazes to be generated
+-c COUNT, --count COUNT
+* amount of mazes to be generated
     
 ```-s SIZE, --size SIZE```
-    size of the maze blocks
+* size of the maze blocks
 
 ```-mx WIDTH, --width WIDTH```
-    width of the maze
+* width of the maze
 
 ```-my HEIGHT, --height HEIGHT```
-    height of the maze
+* height of the maze
 
 ```-g GOLD, --gold GOLD```
-    has gold blocks through maze
+* has gold blocks through maze
 
 ```-ng NUMBEROFGOLD, --numberOfGold NUMBEROFGOLD```
-    number of blocks of gold through maze
+* number of blocks of gold through maze
 
 ```-d DIAMOND, --diamond DIAMOND```
-    has diamond blocks through maze
+* has diamond blocks through maze
 
 ```-nd NUMBEROFDIAMOND, --numberOfDiamond NUMBEROFDIAMOND```
-    number of blocks of diamond through maze
+* number of blocks of diamond through maze
 
 ```python maze-generator-depth-first-search.py -mx 32 -my 32```
 
