@@ -84,7 +84,7 @@ The arguments shoud be:
 
 **Basic usage:**
 
-* **Example #1**: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32
+* **Example #1: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32**
 
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 32
