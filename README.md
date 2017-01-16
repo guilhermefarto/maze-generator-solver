@@ -12,6 +12,10 @@ To install it from [Python Package Index](https://pypi.python.org/pypi/pip) (PIP
 
 > Other dependencies as ```argparse```, ```random```, ```copy```, and ```heapq``` are native to Python platform.
 
+## Contact
+
+You can contact me by mail: guilherme.farto@gmail.com
+
 ---
 
 <a name="maze-generator"></a>
