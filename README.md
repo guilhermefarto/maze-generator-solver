@@ -156,8 +156,10 @@ Output maze:
 
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
-| ![](examples/3/Maze.png) | ![](examples/3/Maze_Solved.png) |
-\* **The maze it was solved using this [example](#solving-mazes-3).**
+| ![](examples/3/Maze_1.png) | ![](examples/3/Maze_1_Solved.png) |
+| ![](examples/3/Maze_2.png) | ![](examples/3/Maze_2_Solved.png) |
+| ![](examples/3/Maze_3.png) | ![](examples/3/Maze_2_Solved.png) |
+\* **The mazes were solved using this [example](#solving-mazes-3).**
 
 * Example #6: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 enabling the generation of gold and diamond blocks
 
@@ -196,7 +198,7 @@ python maze-generator-depth-first-search.py -mx 32 -my 64 -ng=15 -nd=5
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](other-examples/3/Maze.png) | ![](other-examples/3/Maze_Solved.png) |
-\* **The maze it was solved using this [example](#solving-mazes-2).**
+\* **The maze it was solved using this [example](#solving-mazes-1).**
 
 * Example #8: Generating a maze in the same path directory of the .py project with mx = 64 and my = 32 inserting fifteen (15) gold blocks and five (5) diamond blocks
 
@@ -207,7 +209,7 @@ python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](other-examples/4/Maze.png) | ![](other-examples/4/Maze_Solved.png) |
-\* **The maze it was solved using this [example](#solving-mazes-2).**
+\* **The maze it was solved using this [example](#solving-mazes-1).**
 
 **Generating maze(s) in the "c:/mazes" directory**
 
@@ -232,6 +234,8 @@ python maze-solver-a-star.py
 ```
 
 *Hint: The arguments for mx (width) and my (height) shouldn't be used for solving mazes - those values are obtained dynamically*
+
+*Hint: The solved maze(s) will have the name ```Maze_Solved.png``` or ```Maze_{0}_Solved.png``` (for indexed / batch processing - ```{0}``` will iterate from one (1) to defined ```-c COUNT``` argument value)*
 
 **Another examples:**
 
