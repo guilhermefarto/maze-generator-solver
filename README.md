@@ -16,31 +16,31 @@ python maze-generator-depth-first-search.py [-h] [-p PATH] [-c COUNT] [-s SIZE] 
 
 The arguments shoud be:
 
-```-p PATH, --path PATH```
+```-p PATH, --path PATH``` *(optional)*
 * path of the directory that contains the mazes to be generated
 
-```-c COUNT, --count COUNT```
+```-c COUNT, --count COUNT``` *(optional)*
 * amount of mazes to be generated
     
-```-s SIZE, --size SIZE```
+```-s SIZE, --size SIZE``` *(optional)*
 * size of the maze blocks
 
-```-mx WIDTH, --width WIDTH```
+```-mx WIDTH, --width WIDTH``` *(required)*
 * width of the maze
 
-```-my HEIGHT, --height HEIGHT```
+```-my HEIGHT, --height HEIGHT``` *(required)*
 * height of the maze
 
-```-g GOLD, --gold GOLD```
+```-g GOLD, --gold GOLD``` *(optional)*
 * has gold blocks through maze
 
-```-ng NUMBEROFGOLD, --numberOfGold NUMBEROFGOLD```
+```-ng NUMBEROFGOLD, --numberOfGold NUMBEROFGOLD``` *(optional)*
 * number of blocks of gold through maze
 
-```-d DIAMOND, --diamond DIAMOND```
+```-d DIAMOND, --diamond DIAMOND``` *(optional)*
 * has diamond blocks through maze
 
-```-nd NUMBEROFDIAMOND, --numberOfDiamond NUMBEROFDIAMOND```
+```-nd NUMBEROFDIAMOND, --numberOfDiamond NUMBEROFDIAMOND``` *(optional)*
 * number of blocks of diamond through maze
 
 > ### Examples
@@ -82,13 +82,13 @@ python maze-solver-a-star.py [-h] [-p PATH] [-c COUNT] [-s SIZE]
 
 The arguments shoud be:
 
-```-p PATH, --path PATH```
+```-p PATH, --path PATH``` *(optional)*
 * path of the directory that contains the mazes to be solved
 
-```-c COUNT, --count COUNT```
+```-c COUNT, --count COUNT``` *(optional)*
 * amount of mazes to be generated
 
-```-s SIZE, --size SIZE```
+```-s SIZE, --size SIZE``` *(optional)*
 * size of the maze blocks
 
 > ### Examples
