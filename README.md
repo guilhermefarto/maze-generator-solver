@@ -117,9 +117,7 @@ python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -c 3
 python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -g=True -d=True
 ```
 
-*Hint: The default amount of gold blocks is five (5) and the default amout of diamond blocks is one (1)
-
-inserting five (5) gold blocks and a diamond block
+*Hint: The default amount of gold blocks is five (5) and the default amout of diamond blocks is one (1)*
 
 * Example #7: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 inserting fifteen (15) gold blocks and five (5) diamond blocks
 
