@@ -158,7 +158,7 @@ Output maze:
 | ------------------------ | ------------------------------- |
 | ![](examples/3/Maze_1.png) | ![](examples/3/Maze_1_Solved.png) |
 | ![](examples/3/Maze_2.png) | ![](examples/3/Maze_2_Solved.png) |
-| ![](examples/3/Maze_3.png) | ![](examples/3/Maze_2_Solved.png) |
+| ![](examples/3/Maze_3.png) | ![](examples/3/Maze_3_Solved.png) |
 \* **The mazes were solved using this [example](#solving-mazes-3).**
 
 * Example #6: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 enabling the generation of gold and diamond blocks
