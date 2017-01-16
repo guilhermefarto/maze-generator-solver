@@ -6,7 +6,8 @@ Python projects for
 
 ## Dependencies
 
-[PIL](https://python-pillow.org/), or simple PIL, is a Python Imaging Library. To install it from [Python Package Index](https://pypi.python.org/pypi/pip) (PIP), just execute the command in the prompt ```pip install Pillow```.
+Both Python projects (Maze generator and solver) adopt [Python Imaging Library](https://python-pillow.org/), or simple PIL.
+To install it from [Python Package Index](https://pypi.python.org/pypi/pip) (PIP), just execute the command in the prompt ```pip install Pillow```.
 
 Other dependencies as ```argparse```, ```random```, ```copy```, and ```heapq``` are native to Python platform.
 
