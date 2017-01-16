@@ -71,6 +71,8 @@ The arguments shoud be:
 
 **Basic usage:**
 
+#### Example #1: Generating a maze with mx = 32 and my = 32 (it'll result in a 320 px width X 320 px height maze)
+
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 32
 ```
