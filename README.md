@@ -90,6 +90,12 @@ python maze-generator-depth-first-search.py -mx 32 -my 32
 
 *Hint: The exported maze will have the name ```Maze.png``` or ```Maze_{0}.png``` (for indexed / batch processing - ```{0}``` will iterate from one (1) to defined ```-c COUNT``` argument value)*
 
+Output maze:
+
+| Maze.png        | Maze_Solved.png           |
+| ------------- | ------------- |
+|  |  |
+
 **Another examples:**
 
 * Example #2: Generating a maze in the same path directory of the .py project with mx = 32 and my = 64
