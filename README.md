@@ -16,8 +16,7 @@ python maze-generator-depth-first-search.py [-h] [-c COUNT] [-s SIZE] -mx WIDTH 
 ```
 
 ```python
--c COUNT, --count COUNT
-```
+-c COUNT, --count COUNT```
 * amount of mazes to be generated
     
 ```-s SIZE, --size SIZE```
