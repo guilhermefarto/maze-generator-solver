@@ -1,7 +1,14 @@
 # maze-generator-solver
+
 Python projects for
 * (i) [Maze generator](#maze-generator) algorithm based on Depth-First Search and Recursive Backtracker ([examples](#maze-generator-examples))
 * (ii) [Maze solver](#maze-solver) algorithm based on A\* Search ([examples](#maze-solver-examples))
+
+## Dependencies
+
+[PIL](https://python-pillow.org/), or simple PIL, is a Python Imaging Library. To install it from [Python Package Index](https://pypi.python.org/pypi/pip) (PIP), just execute the command in the prompt ```pip install Pillow```.
+
+Other dependencies as ```argparse```, ```random```, ```copy```, and ```heapq``` are native to Python platform.
 
 ---
 
