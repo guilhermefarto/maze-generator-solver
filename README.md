@@ -7,7 +7,6 @@ Python projects for
 > ## Maze Generator (maze-generator-depth-first-search.py)
 
 > - Depth-First Search and Recursive Backtracker
-======
 
 > Usage:
 
@@ -67,7 +66,6 @@ Another examples:
 > ## Maze Solver (maze-solver-a-star.py)
 
 - A* Search
-======
 
 > Usage:
 
