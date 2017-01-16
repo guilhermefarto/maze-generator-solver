@@ -22,7 +22,7 @@ The arguments shoud be:
 ```-c COUNT, --count COUNT``` *(optional)*
 * amount of mazes to be generated
     
-```-s SIZE, --size SIZE``` *(optional)*
+```-s SIZE, --size SIZE``` *(optional but default value is 10 (int))*
 * size of the maze blocks
 
 ```-mx WIDTH, --width WIDTH``` *(required)*
@@ -34,13 +34,13 @@ The arguments shoud be:
 ```-g GOLD, --gold GOLD``` *(optional)*
 * has gold blocks through maze
 
-```-ng NUMBEROFGOLD, --numberOfGold NUMBEROFGOLD``` *(optional)*
+```-ng NUMBEROFGOLD, --numberOfGold NUMBEROFGOLD``` *(optional but default value is 5 (int))*
 * number of blocks of gold through maze
 
 ```-d DIAMOND, --diamond DIAMOND``` *(optional)*
 * has diamond blocks through maze
 
-```-nd NUMBEROFDIAMOND, --numberOfDiamond NUMBEROFDIAMOND``` *(optional)*
+```-nd NUMBEROFDIAMOND, --numberOfDiamond NUMBEROFDIAMOND``` *(optional but default value is 1 (int))*
 * number of blocks of diamond through maze
 
 <a name="maze-generator-examples"></a>
@@ -89,7 +89,7 @@ The arguments shoud be:
 ```-c COUNT, --count COUNT``` *(optional)*
 * amount of mazes to be generated
 
-```-s SIZE, --size SIZE``` *(optional)*
+```-s SIZE, --size SIZE``` *(optional but default value is 10 (int))*
 * size of the maze blocks
 
 <a name="maze-solver-examples"></a>
