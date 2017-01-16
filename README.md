@@ -9,8 +9,7 @@ Python projects for
 > ## Maze Generator (maze-generator-depth-first-search.py)
 > - Depth-First Search and Recursive Backtracker
 
-> Usage:
-
+Usage:
 ```python
 python maze-generator-depth-first-search.py [-h] [-c COUNT] [-s SIZE] -mx WIDTH -my HEIGHT [-g GOLD] [-ng NUMBEROFGOLD] [-d DIAMOND] [-nd NUMBEROFDIAMOND]
 ```
