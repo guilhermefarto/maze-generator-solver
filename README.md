@@ -66,10 +66,8 @@ The arguments shoud be:
 <a name="all-examples"></a>
 ## Examples
 
----
-
 <a name="maze-generator-examples"></a>
-> ### Examples for generating mazes
+### Examples for generating mazes
 
 ```python maze-generator-depth-first-search.py -mx 32 -my 32```
 
@@ -97,10 +95,8 @@ The arguments shoud be:
 
 ```python maze-generator-depth-first-search.py -mx 32 -my 32 -p C:/mazes```
 
----
-
 <a name="maze-solver-examples"></a>
-> ### Examples for solving mazes
+### Examples for solving mazes
 
 ```python maze-solver-a-star.py```
 
