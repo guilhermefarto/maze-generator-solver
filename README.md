@@ -94,7 +94,7 @@ Output maze:
 
 | Maze.png                 | Maze_Solved.png                 |
 | ------------------------ | ------------------------------- |
-| ![](examples/1/Maze.png) | ![](examples/1/Maze_Solved.png) |
+| ![](examples/1/Maze.png =100x20) | ![](examples/1/Maze_Solved.png) |
 
 **Another examples:**
 
