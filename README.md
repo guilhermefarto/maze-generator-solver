@@ -105,6 +105,6 @@ The arguments shoud be:
 
 ```python maze-solver-a-star.py -s 5``` (same of example #2)
 
-**Solving maze(s) from "C:/mazes" directory**
+**Solving maze(s) from the "C:/mazes" directory**
 
 ```python maze-solver-a-star.py -p C:/mazes```
