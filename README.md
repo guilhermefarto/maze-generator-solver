@@ -77,7 +77,7 @@ The arguments shoud be:
 python maze-generator-depth-first-search.py -mx 32 -my 32
 ```
 
-    *Hint: It'll result in a 320 px width X 320 px height maze because ```-s SIZE``` argument default value is 10*
+*Hint: It'll result in a 320 px width X 320 px height maze because ```-s SIZE``` argument default value is 10*
 
 **Another examples:**
 
