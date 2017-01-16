@@ -86,7 +86,7 @@ The arguments shoud be:
 python maze-generator-depth-first-search.py -mx 32 -my 32
 ```
 
-*Hint: The generated maze will be a image with 320 px (width) and 320 px (height) because ```-s SIZE``` argument default value is 10 (32 \* 10 = 320 px)*
+*Hint: The generated maze will be a image with 320 px (width) and 320 px (height) because ```-s SIZE``` argument default value is 10 (32 * 10 = 320 px)*
 
 *Hint: The exported maze will have the name ```Maze.png``` or ```Maze_{0}.png``` (for indexed / batch processing - ```{0}``` will iterate from one (1) to defined ```-c COUNT``` argument value)*
 
