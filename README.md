@@ -67,7 +67,7 @@ The arguments shoud be:
 ## Examples
 
 <a name="maze-generator-examples"></a>
-### Examples for generating mazes
+### > Examples for generating mazes
 
 ```python maze-generator-depth-first-search.py -mx 32 -my 32```
 
