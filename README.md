@@ -95,7 +95,7 @@ Output maze:
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](examples/1/Maze.png) | ![](examples/1/Maze_Solved.png) |
-* **The maze it was solved using this(example)[asdf].**
+\* **The maze it was solved using this(example)[asdf].**
 
 **Another examples:**
 
