@@ -72,6 +72,7 @@ The arguments shoud be:
 **Basic usage:**
 
 * Example #1: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32
+
     *Hint: It'll result in a 320 px width X 320 px height maze because ```-s SIZE``` argument default value is 10*
 
 ```python
