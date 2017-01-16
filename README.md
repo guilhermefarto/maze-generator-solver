@@ -100,7 +100,7 @@ python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5
 **Generating maze(s) in the "C:/mazes" directory**
 
 ```python
-python maze-generator-depth-first-search.py -mx 32 -my 32 -p C:/mazes
+python maze-generator-depth-first-search.py -mx 32 -my 32 -p C:mazes
 ```
 
 <a name="maze-solver-examples"></a>
