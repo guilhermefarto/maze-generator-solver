@@ -77,9 +77,9 @@ The arguments shoud be:
 python maze-generator-depth-first-search.py -mx 32 -my 32
 ```
 
-*Hint: The generated maze will be a image with 320 px (width) and 320 px (height) because ```-s SIZE``` argument default value is 10*
+*Hint: The generated maze will be a image with 320 px (width) and 320 px (height) because ```-s SIZE``` argument default value is 10 (32 \* 10 = 320 px)*
 
-*Hint: The exported maze with have the name ```Maze.png``` or ```Maze_{0}.png``` (for indexed / batch processing - ```{0}``` will iterate from one (1) to defined ```-c COUNT``` argument value)*
+*Hint: The exported maze will have the name ```Maze.png``` or ```Maze_{0}.png``` (for indexed / batch processing - ```{0}``` will iterate from one (1) to defined ```-c COUNT``` argument value)*
 
 **Another examples:**
 
@@ -105,7 +105,7 @@ python maze-generator-depth-first-search.py -mx 64 -my 32
 python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5
 ```
 
-*Hint: The generated maze will be a 50%-image with 160 px (width) and 160 px (height) because ```-s SIZE``` argument value is 5*
+*Hint: The generated maze will be a 50%-image with 160 px (width) and 160 px (height) because ```-s SIZE``` argument value is 5 (32 \* 5 = 160 px)*
 
 * Example #5: Generating three (3) mazes in the same path directory of the .py project with mx = 32 and my = 32
 
@@ -113,13 +113,15 @@ python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5
 python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -c 3
 ```
 
-* Example #6: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 enabling the generationg of gold and diamond blocks
+*Hint: As mentioned, the exported mazes will have names based on ```Maze_{0}.png``` pattern (```{0}``` will iterate from one (1) to defined ```-c COUNT``` argument value)*
+
+* Example #6: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 enabling the generation of gold and diamond blocks
 
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -g=True -d=True
 ```
 
-*Hint: The default amount of gold blocks is five (5) and the default amout of diamond blocks is one (1)*
+*Hint: The default amount of blocks of gold is five (5) and the default amout of blocks of diamond is one (1)*
 
 * Example #7: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 inserting fifteen (15) gold blocks and five (5) diamond blocks
 
