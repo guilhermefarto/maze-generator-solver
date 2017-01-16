@@ -45,7 +45,7 @@ The arguments shoud be:
 
 <a name="maze-solver"></a>
 ## Maze Solver (maze-solver-a-star.py)
-> Based on A* Search
+> Based on A\* Search
 
 Usage:
 ```python
