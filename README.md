@@ -77,7 +77,7 @@ The arguments shoud be:
 python maze-generator-depth-first-search.py -mx 32 -my 32
 ```
 
-*Hint: It'll result in a 320 px width X 320 px height maze because ```-s SIZE``` argument default value is 10*
+*Hint: The generated maze will be a image with 320 px (width) and 320 px (height) because ```-s SIZE``` argument default value is 10*
 
 **Another examples:**
 
@@ -87,7 +87,7 @@ python maze-generator-depth-first-search.py -mx 32 -my 32
 python maze-generator-depth-first-search.py -mx 32 -my 64
 ```
 
-*Hint: It'll result in a 320 px width X 640 px height maze because ```-s SIZE``` argument default value is 10*
+*Hint: The generated maze will be a image with 320 px (width) and 640 px (height) because ```-s SIZE``` argument default value is 10*
 
 * Example #3: Generating a maze in the same path directory of the .py project with mx = 32 and my = 64
 
@@ -95,7 +95,7 @@ python maze-generator-depth-first-search.py -mx 32 -my 64
 python maze-generator-depth-first-search.py -mx 64 -my 32
 ```
 
-*Hint: It'll result in a 640 px width X 320 px height maze because ```-s SIZE``` argument default value is 10*
+*Hint: The generated maze will be a image with 640 px (width) and 320 px (height) because ```-s SIZE``` argument default value is 10*
 
 * Example #4: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32
 
@@ -103,7 +103,7 @@ python maze-generator-depth-first-search.py -mx 64 -my 32
 python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5
 ```
 
-*Hint: It'll result in a 160 px width X 160 px height maze because ```-s SIZE``` argument value is 5*
+*Hint: The generated maze will be a 50%-image with 160 px (width) and 160 px (height) because ```-s SIZE``` argument value is 5*
 
 * Example #5: Generating three (3) mazes in the same path directory of the .py project with mx = 32 and my = 32
 
