@@ -11,7 +11,7 @@ Python projects for
 ```python maze-generator-depth-first-search.py [-h] [-c COUNT] [-s SIZE] -mx WIDTH -my HEIGHT [-g GOLD] [-ng NUMBEROFGOLD] [-d DIAMOND] [-nd NUMBEROFDIAMOND]```
 
 ```-c COUNT, --count COUNT```
-+ amount of mazes to be generated
+* amount of mazes to be generated
     
 ```-s SIZE, --size SIZE```
 * size of the maze blocks
@@ -33,6 +33,8 @@ Python projects for
 
 ```-nd NUMBEROFDIAMOND, --numberOfDiamond NUMBEROFDIAMOND```
 * number of blocks of diamond through maze
+
+> #### Examples
 
 ```python maze-generator-depth-first-search.py -mx 32 -my 32```
 
@@ -58,11 +60,15 @@ Another examples:
 > Usage: ```python maze-solver-a-star.py [-h] [-p PATH] [-c COUNT] [-s SIZE]```
 
 ```-p PATH, --path PATH```
-    path of the directory that contains the mazes to be solved
+* path of the directory that contains the mazes to be solved
+
 ```-c COUNT, --count COUNT```
-    amount of mazes to be generated
+* amount of mazes to be generated
+
 ```-s SIZE, --size SIZE```
-    size of the maze blocks
+* size of the maze blocks
+
+> #### Examples
 
 ```python maze-solver-a-star.py```
 
