@@ -62,7 +62,9 @@ Another examples:
 
 > ```python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5``` (64 columns and 32 rows)
 
+
 ---
+
 
 <a name="maze-solver"></a>
 > ## Maze Solver (maze-solver-a-star.py)
