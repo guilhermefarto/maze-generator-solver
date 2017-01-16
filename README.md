@@ -104,6 +104,12 @@ Output maze:
 python maze-generator-depth-first-search.py -mx 32 -my 64
 ```
 
+Output maze:
+
+| Maze.png                 | Maze_Solved.png                 |
+| ------------------------ | ------------------------------- |
+| ![](other-examples/1/Maze.png) | ![](other-examples/1/Maze_Solved.png) |
+
 *Hint: The generated maze will be a image with 320 px (width) and 640 px (height) because ```-s SIZE``` argument default value is 10*
 
 * Example #3: Generating a maze in the same path directory of the .py project with mx = 32 and my = 64
@@ -114,11 +120,23 @@ python maze-generator-depth-first-search.py -mx 64 -my 32
 
 *Hint: The generated maze will be a image with 640 px (width) and 320 px (height) because ```-s SIZE``` argument default value is 10*
 
+Output maze:
+
+| Maze.png                 | Maze_Solved.png                 |
+| ------------------------ | ------------------------------- |
+| ![](other-examples/2/Maze.png) | ![](other-examples/2/Maze_Solved.png) |
+
 * Example #4: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32
 
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5
 ```
+
+Output maze:
+
+| Maze.png                 | Maze_Solved.png                 |
+| ------------------------ | ------------------------------- |
+| ![](examples/2/Maze.png) | ![](examples/2/Maze_Solved.png) |
 
 *Hint: The generated maze will be a 50%-image with 160 px (width) and 160 px (height) because ```-s SIZE``` argument value is 5 (32 \* 5 = 160 px)*
 
@@ -130,11 +148,23 @@ python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -c 3
 
 *Hint: As mentioned, the exported mazes will have names based on ```Maze_{0}.png``` pattern (```{0}``` will iterate from one (1) to defined ```-c COUNT``` argument value)*
 
+Output maze:
+
+| Maze.png                 | Maze_Solved.png                 |
+| ------------------------ | ------------------------------- |
+| ![](examples/3/Maze.png) | ![](examples/3/Maze_Solved.png) |
+
 * Example #6: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 enabling the generation of gold and diamond blocks
 
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -g=True -d=True
 ```
+
+Output maze:
+
+| Maze.png                 | Maze_Solved.png                 |
+| ------------------------ | ------------------------------- |
+| ![](examples/4/Maze.png) | ![](examples/4/Maze_Solved.png) |
 
 *Hint: The default amount of blocks of gold is five (5) and the default amout of blocks of diamond is one (1)*
 
@@ -144,17 +174,31 @@ python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -g=True -d=True
 python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -ng=15 -nd=5
 ```
 
+Output maze:
+
+| Maze.png                 | Maze_Solved.png                 |
+| ------------------------ | ------------------------------- |
+| ![](examples/5/Maze.png) | ![](examples/5/Maze_Solved.png) |
+
 * Example #8: Generating a maze in the same path directory of the .py project with mx = 32 and my = 64 inserting fifteen (15) gold blocks and five (5) diamond blocks
 
 ```python
 python maze-generator-depth-first-search.py -mx 32 -my 64 -ng=15 -nd=5
 ```
 
+| Maze.png                 | Maze_Solved.png                 |
+| ------------------------ | ------------------------------- |
+| ![](other-examples/3/Maze.png) | ![](other-examples/3/Maze_Solved.png) |
+
 * Example #8: Generating a maze in the same path directory of the .py project with mx = 64 and my = 32 inserting fifteen (15) gold blocks and five (5) diamond blocks
 
 ```python
 python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5
 ```
+
+| Maze.png                 | Maze_Solved.png                 |
+| ------------------------ | ------------------------------- |
+| ![](other-examples/4/Maze.png) | ![](other-examples/4/Maze_Solved.png) |
 
 **Generating maze(s) in the "c:/mazes" directory**
 
