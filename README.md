@@ -7,7 +7,6 @@ Python projects for
 
 <a name="maze-generator"></a>
 > ## Maze Generator (maze-generator-depth-first-search.py)
-
 > - Depth-First Search and Recursive Backtracker
 
 > Usage:
