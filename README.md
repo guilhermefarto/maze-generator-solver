@@ -43,7 +43,7 @@ The arguments shoud be:
 ```-nd NUMBEROFDIAMOND, --numberOfDiamond NUMBEROFDIAMOND``` *(optional)*
 * number of blocks of diamond through maze
 
-> ### Examples
+> ### Examples for generating mazes
 
 ```python maze-generator-depth-first-search.py -mx 32 -my 32```
 
@@ -91,7 +91,7 @@ The arguments shoud be:
 ```-s SIZE, --size SIZE``` *(optional)*
 * size of the maze blocks
 
-> ### Examples
+> ### Examples for solving mazes
 
 ```python maze-solver-a-star.py```
 
