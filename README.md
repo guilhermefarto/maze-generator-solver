@@ -95,7 +95,7 @@ Output maze:
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](examples/1/Maze.png) | ![](examples/1/Maze_Solved.png) |
-\* **The maze it was solved using this(example)[#solving-mazes-1].**
+\* **The maze it was solved using this [example](#solving-mazes-1).**
 
 (Teste)[#solving-mazes-1]
 
@@ -112,7 +112,7 @@ Output maze:
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](other-examples/1/Maze.png) | ![](other-examples/1/Maze_Solved.png) |
-\* **The maze it was solved using this(example)[#solving-mazes-1].**
+\* **The maze it was solved using this [example](#solving-mazes-1).**
 
 *Hint: The generated maze will be a image with 320 px (width) and 640 px (height) because ```-s SIZE``` argument default value is 10*
 
@@ -129,7 +129,7 @@ Output maze:
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](other-examples/2/Maze.png) | ![](other-examples/2/Maze_Solved.png) |
-\* **The maze it was solved using this(example)[#solving-mazes-1].**
+\* **The maze it was solved using this [example](#solving-mazes-1).**
 
 * Example #4: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32
 
@@ -142,7 +142,7 @@ Output maze:
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](examples/2/Maze.png) | ![](examples/2/Maze_Solved.png) |
-\* **The maze it was solved using this(example)[#solving-mazes-2].**
+\* **The maze it was solved using this [example](#solving-mazes-2).**
 
 *Hint: The generated maze will be a 50%-image with 160 px (width) and 160 px (height) because ```-s SIZE``` argument value is 5 (32 \* 5 = 160 px)*
 
@@ -159,7 +159,7 @@ Output maze:
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](examples/3/Maze.png) | ![](examples/3/Maze_Solved.png) |
-\* **The maze it was solved using this(example)[#solving-mazes-3].**
+\* **The maze it was solved using this [example](#solving-mazes-3).**
 
 * Example #6: Generating a maze in the same path directory of the .py project with mx = 32 and my = 32 enabling the generation of gold and diamond blocks
 
@@ -172,7 +172,7 @@ Output maze:
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](examples/4/Maze.png) | ![](examples/4/Maze_Solved.png) |
-\* **The maze it was solved using this(example)[#solving-mazes-2].**
+\* **The maze it was solved using this [example](#solving-mazes-2).**
 
 *Hint: The default amount of blocks of gold is five (5) and the default amout of blocks of diamond is one (1)*
 
@@ -187,7 +187,7 @@ Output maze:
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](examples/5/Maze.png) | ![](examples/5/Maze_Solved.png) |
-\* **The maze it was solved using this(example)[#solving-mazes-2].**
+\* **The maze it was solved using this [example](#solving-mazes-2).**
 
 * Example #8: Generating a maze in the same path directory of the .py project with mx = 32 and my = 64 inserting fifteen (15) gold blocks and five (5) diamond blocks
 
@@ -198,7 +198,7 @@ python maze-generator-depth-first-search.py -mx 32 -my 64 -ng=15 -nd=5
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](other-examples/3/Maze.png) | ![](other-examples/3/Maze_Solved.png) |
-\* **The maze it was solved using this(example)[#solving-mazes-2].**
+\* **The maze it was solved using this [example](#solving-mazes-2).**
 
 * Example #8: Generating a maze in the same path directory of the .py project with mx = 64 and my = 32 inserting fifteen (15) gold blocks and five (5) diamond blocks
 
@@ -209,7 +209,7 @@ python maze-generator-depth-first-search.py -mx 64 -my 32 -ng=15 -nd=5
 | Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](other-examples/4/Maze.png) | ![](other-examples/4/Maze_Solved.png) |
-\* **The maze it was solved using this(example)[#solving-mazes-2].**
+\* **The maze it was solved using this [example](#solving-mazes-2).**
 
 **Generating maze(s) in the "c:/mazes" directory**
 
