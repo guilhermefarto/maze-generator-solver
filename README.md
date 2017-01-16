@@ -92,9 +92,10 @@ python maze-generator-depth-first-search.py -mx 32 -my 32
 
 Output maze:
 
-| Maze.png                 | Maze_Solved.png                 |
+| Maze.png                 | Maze_Solved.png (\*)            |
 | ------------------------ | ------------------------------- |
 | ![](examples/1/Maze.png) | ![](examples/1/Maze_Solved.png) |
+* **The maze it was solved using this(example)[asdf].**
 
 **Another examples:**
 
