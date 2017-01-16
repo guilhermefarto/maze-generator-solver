@@ -35,7 +35,7 @@ Python projects for
 ```-nd NUMBEROFDIAMOND, --numberOfDiamond NUMBEROFDIAMOND```
 * number of blocks of diamond through maze
 
-> #### Examples
+> ### Examples
 
 ```python maze-generator-depth-first-search.py -mx 32 -my 32```
 
@@ -45,13 +45,13 @@ Another examples:
 
 > ```python maze-generator-depth-first-search.py -mx 64 -my 32``` (64 columns and 32 rows)
 
-> ```python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5```
+```python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5```
 
-> ```python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -c 3```
+```python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -c 3```
 
-> ```python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -g=True -d=True```
+```python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -g=True -d=True```
 
-> ```python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -ng=15 -nd=5```
+```python maze-generator-depth-first-search.py -mx 32 -my 32 -s 5 -ng=15 -nd=5```
 
 Another examples:
 
@@ -75,7 +75,7 @@ Another examples:
 ```-s SIZE, --size SIZE```
 * size of the maze blocks
 
-> #### Examples
+> ### Examples
 
 ```python maze-solver-a-star.py```
 
