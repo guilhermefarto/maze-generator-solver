@@ -275,7 +275,7 @@ python maze-solver-a-star.py -p c:/mazes
 <a name="maze-color-changing"></a>
 ### > Maze color changing
 
-It's possible to change the color of maze elements by modifying the constants from .py projects. The color constants are based on RGB (Red, Green, and Blue) pattern. The default color constants are displayed at the follow ```snippet```.
+It's possible to change the color of maze elements by modifying the constants from .py projects. The color constants are based on RGB (Red, Green, and Blue) pattern. The default color constants are displayed at the follow ```snippet```:
 
 ```python
     WALL = (0, 0, 0)
@@ -293,4 +293,17 @@ All those color constants are used in an array for maze representation. For exam
 
 ```python
     color = [PATH, WALL, BORDER, START, GOAL, GOLD, DIAMOND, 0, 0, SOLVED_PATH] # RGB COLORS OF THE MAZE
+```
+
+<a name="maze-default-extension-format"></a>
+### > Maze default extension and format
+
+The current version of implementation works with extension ```"png"``` and format ```"PNG"```. Future modifications can integrate another extensions and formats, e.g., ```"jpg"``` (extension) and ```"JPEG"``` (format).
+
+Previous tests were conducted and help to identify that the solver algorithm will need to consider image compression (and loss of quality). Low quality images result in mazes that can't be used due to image processing (the solver algorithm extracts information based on color constants, e.g., walls, paths, start, and goal points).
+
+It's possible to change the extension and format of image by modifying the dictionary from .py projects. The default extension and format are displayed at the follow ```snippet```:
+
+```python
+    file = {"extension": "png", "format": "PNG"}
 ```
