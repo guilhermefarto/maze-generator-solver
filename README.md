@@ -288,3 +288,9 @@ It's possible to change the color of maze elements by modifying the constants fr
     DIAMOND = (0, 255, 255)
     SOLVED_PATH = (255, 0, 255)
 ```
+
+All those color constants are used in an array for maze representation. For example, when a value ```1``` is identified in maze generation (supported by an indexed matrix), the color constant ```WALL``` will be used in the graphical representation of maze.
+
+```python
+    color = [PATH, WALL, BORDER, START, GOAL, GOLD, DIAMOND, 0, 0, SOLVED_PATH] # RGB COLORS OF THE MAZE
+```
