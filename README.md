@@ -146,7 +146,7 @@ Output maze:
 | ![](examples/2/Maze.png) | ![](examples/2/Maze_Solved.png) |
 \* **The maze was solved using this [example](#solving-mazes-2).**
 
-*Hint: The generated maze will be a 50%-image with 160 px (width) and 160 px (height) because ```-s SIZE``` argument value is 5 (32 \* 5 = 160 px)*
+*Hint: The generated maze will be a 50%-image with 160 px (width) and 160 px (height) because ```-s SIZE``` argument value is 5 (32 * 5 = 160 px)*
 
 * **Example #5: Generating three (3) mazes in the same path directory of the .py project with mx = 32 and my = 32**
 
