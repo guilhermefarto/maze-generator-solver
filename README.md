@@ -268,3 +268,23 @@ python maze-solver-a-star.py -p c:/mazes
 ```
 
 *Hint: All other arguments previously described can be used with ```-p PATH``` argument*
+
+<a name="additional-information"></a>
+## Additional information
+
+<a name="maze-color-changing"></a>
+### > Maze color changing
+
+It's possible to change the color of maze elements by modifying the constants from .py projects. The color constants are based on RGB (Red, Green, and Blue) pattern. The default color constants are displayed at the follow ```snippet```.
+
+```python
+    WALL = (0, 0, 0)
+    PATH = (255, 255, 255)
+    BORDER = (0, 0, 255)
+    # BORDER = WALL
+    START = (255, 0, 0)
+    GOAL = (0, 255, 0)
+    GOLD = (255, 215, 0)
+    DIAMOND = (0, 255, 255)
+    SOLVED_PATH = (255, 0, 255)
+```
