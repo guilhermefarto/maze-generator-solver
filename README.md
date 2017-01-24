@@ -30,7 +30,7 @@ python maze-generator-depth-first-search.py [-h] [-p PATH] [-c COUNT] [-s SIZE] 
 The arguments shoud be:
 
 `-p PATH, --path PATH` *(optional)*
-* path of the directory that contains the mazes to be generated
+* path of the directory for storing generated mazes
 
 `-c COUNT, --count COUNT` *(optional)*
 * amount of mazes to be generated
