@@ -27,7 +27,7 @@ Usage:
 python maze-generator-depth-first-search.py [-h] [-p PATH] [-c COUNT] [-s SIZE] -mx WIDTH -my HEIGHT [-g] [-ng NUMBEROFGOLD] [-d] [-nd NUMBEROFDIAMOND]
 ```
 
-The arguments shoud be:
+The arguments are:
 
 `-p PATH, --path PATH` *(optional)*
 * path of the directory for storing generated mazes
@@ -65,7 +65,7 @@ Usage:
 python maze-solver-a-star.py [-h] [-p PATH] [-c COUNT] [-s SIZE]
 ```
 
-The arguments shoud be:
+The arguments are:
 
 `-p PATH, --path PATH` *(optional)*
 * path of the directory that contains the mazes to be solved
